@@ -2,19 +2,27 @@
 <html>
 <head>
   <title>Todo App</title>
-  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" 
+        rel="stylesheet">
   <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
 </head>
 <body class="page">
   <header class="header">
-    <img class="header__img" src="./eisenhower-matrix.jpg" alt="The eisenhower matrix">
-    <a class="header__more-info" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
+    <img class="header__img" 
+         src="./eisenhower-matrix.jpg" 
+         alt="The eisenhower matrix">
+    <a class="header__more-info" 
+       href="https://goal-life.com/page/method/matrix-eisenhower">
+       Want more details?
+    </a>
   </header>
   <main class="main">
     <section class="section-add-item">
       <h3 class="h3 section-add-item__h3">Add Item</h3>
       <div class="task-row-wrapper">
-        <input class="input task-row-wrapper__input" id="new-task" type="text">
+        <input class="input task-row-wrapper__input" 
+               id="new-task" 
+               type="text">
         <button class="button task-row-wrapper__button">Add</button>
       </div>
     </section>
@@ -27,16 +35,22 @@
           <input class="input list-item__input-text" type="text">
           <button class="button list-item__button-edit">Edit</button>
           <button class="button list-item__button-delete">
-            <img class="list-item__button-delete__img" src="./remove.svg" alt="Removie item">
+            <img class="list-item__button-delete__img" 
+                 src="./remove.svg" 
+                 alt="Removie item">
           </button>
         </li>
         <li class="list-item edit-mode">
           <input class="input list-item__input-checkbox" type="checkbox">
           <label class="list-item__label">Go Shopping</label>
-          <input class="input list-item__input-text" type="text" value="Go Shopping">
+          <input class="input list-item__input-text" 
+                 type="text" 
+                 value="Go Shopping">
           <button class="button list-item__button-edit">Save</button>
           <button class="button list-item__button-delete">
-            <img class="list-item__button-delete__img" src="./remove.svg" alt="Removie item">
+            <img class="list-item__button-delete__img" 
+                 src="./remove.svg" 
+                 alt="Removie item">
           </button>
         </li>
       </ul>
@@ -45,12 +59,16 @@
       <h3 class="h3 section-completed__h3">Completed</h3>
       <ul class="unordered-list" id="completed-tasks">
         <li class="list-item">
-          <input class="input list-item__input-checkbox" type="checkbox" checked>
+          <input class="input list-item__input-checkbox" 
+                 type="checkbox" 
+                 checked>
           <label class="list-item__label">See the Doctor</label>
           <input class="input list-item__input-text" type="text">
           <button class="button list-item__button-edit">Edit</button>
           <button class="button list-item__button-delete">
-            <img class="list-item__button-delete__img" src="./remove.svg" alt="Remove item">
+            <img class="list-item__button-delete__img" 
+                 src="./remove.svg" 
+                 alt="Remove item">
           </button>
         </li>
       </ul>
