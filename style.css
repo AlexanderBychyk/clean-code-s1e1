@@ -127,13 +127,13 @@
   width: 226px;
 }
 .list-item__button-delete
-.list-item__button-delete__img {
+.button__img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 .list-item__button-delete
-.list-item__button-delete__img:hover {
+.button__img:hover {
   transform: rotateZ(0);
 }
 
